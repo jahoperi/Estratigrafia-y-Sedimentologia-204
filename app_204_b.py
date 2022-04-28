@@ -2728,7 +2728,7 @@ if page == 'Unión de los gráficos':
    
 #146
      fig.add_scatter(name = 'Yessika Zurit Pérez Zamudio',x=["Calidad de roca almacén",	"Bioestratigrafía", "Diagénesis", "Estratigrafía de Secuencias de sistemas carbonatados", "Estratigrafía de Secuencias de sistemas clásticos", "Sedimentología, diagénesis y distribución de facies en lutitas orgánicas", "Sedimentología y análisis de facies de clásticos", "Sedimentología y análisis de facies de rocas carbonatadas", "Mapeo, correlaciones estratigráficas y estructurales", "Petrografía y descripción de núcleos", "Exploración y análisis de plays", "Reconstrucción estructural, paleogeografía y tectónica", "Análisis de atributos", "Estratigrafía sísmica", "Análisis de petrofísica de clásticos y de baja resistividad", "Análisis petrofísico de carbonatos", "Análisis especial y rutinario de núcleos", "Principios de petrofísica y evaluación de formaciones", "Análisis de riesgo geológico", "Integración de geociencias"], y=[2,3,2,1,2,1,2,2,2,1,2,1,1,1,1,1,1,1,1,2])
-     fig.update_layout(yaxis_title='Nivel de dominio', xaxis_title = 'Competencias', title='Yessika Zurit Pérez Zamudio', autosize=True, height=700, width = 1900, font=dict(family="bold, monospace", size=15, color="black"))
+     fig.update_layout(yaxis_title='Nivel de dominio', xaxis_title = 'Competencias', autosize=True, height=700, width = 1900, font=dict(family="bold, monospace", size=15, color="black"))
      fig.update_yaxes(range = [0,5])
    
      st.plotly_chart(fig)
